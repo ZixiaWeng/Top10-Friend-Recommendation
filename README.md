@@ -55,11 +55,13 @@ At command line, navigate to the hadoop home directory and run
         $ bin/hdfs namenode -format 
         $ sbin/start-dfs.sh
         $ sbin/start-yarn.sh 
-4）Create Node
+
+4）Create FS and check status
+        
         $ bin/hdfs dfs -mkdir /user/zixia
         $ jps
 
-4) When you are done with your work 
+5) When done with your work 
 
         $ sbin/stop-dfs.sh
         $ sbin/stop-yarn.sh
